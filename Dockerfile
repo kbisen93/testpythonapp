@@ -11,6 +11,7 @@ RUN pip install GitPython==3.1.11
 RUN pwd
 RUN mkdir /testpythonapp
 WORKDIR /testpythonapp
+
 RUN pwd
 ADD . /testpythonapp/
 
